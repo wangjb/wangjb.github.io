@@ -1,17 +1,17 @@
 linkedin:
   id: 'jung-bin-wang-97a953119'
-  href: 'https://www.linkedin.com/'
+  href: 'https://www.linkedin.com/in/'
   title: 'Linkedin'
   fa-icon: 'fa-linkedin-square'
 
 github:
-  id: 'wanjb'
+  id: 'wangjb'
   href: 'https://github.com/'
   title: 'GitHub'
   fa-icon: 'fa-github-square'
 
 medium:
-  id: 'consttwang'
+  id: '@consttwang'
   href: 'https://medium.com/'
   title: 'Medium'
   fa-icon: 'fa-medium'
