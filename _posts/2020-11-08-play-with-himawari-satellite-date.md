@@ -137,7 +137,7 @@ local_scene.show(rgbname)
 
 > 修改邊距為490公里，重新resample可得臺灣區域衛星雲圖
 
-{% include image.html url="/assets/img/himawari_ahi_truecolor_Taiwan_202007120200.png" description="資料時間：2020年7月12日2點0分 UTC，圖片中心為臺灣地理中心 23.9738° N, 120.9797° E，邊距上下左右各490公里。" %}
+{% include image.html url="/assets/img/himawari_ahi_truecolor_Taiwan_202007120200_S.png" description="資料時間：2020年7月12日2點0分 UTC，圖片中心為臺灣地理中心 23.9738° N, 120.9797° E，邊距上下左右各490公里。" %}
 
 ### 繪製颱風真實色衛星雲圖
 
@@ -160,7 +160,7 @@ strings = ['R301']
 files = {'ahi_hsd':  [x for x in files['ahi_hsd'] if any(s in x for s in strings)] }
 ```
 
-{% include image.html url="/assets/img/himawari_ahi_truecolor_Target1_202011060402.png" description="資料時間：2020年11月6日4點02分 UTC，颱風閃電正經過墾丁外海。" %}
+{% include image.html url="/assets/img/himawari_ahi_truecolor_Target1_202011060402_S.png" description="資料時間：2020年11月6日4點02分 UTC，颱風閃電正經過墾丁外海。" %}
 
 ### 繪製日本真實色衛星雲圖
 
