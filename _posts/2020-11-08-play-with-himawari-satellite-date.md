@@ -131,7 +131,7 @@ local_scene = scn.resample(areadef)
 local_scene.show(rgbname)
 ```
 
-{% include image.html url="/assets/img/himawari_ahi_truecolor_EastAsia_202011060400.png" description="資料時間：2020年11月6日4點0分 UTC，圖片中心為臺灣地理中心 23.9738° N 120.9797° E，邊距上下左右各2000公里。" %}
+{% include image.html url="/assets/img/himawari_ahi_truecolor_EastAsia_202011060400_S.png" description="資料時間：2020年11月6日4點0分 UTC，圖片中心為臺灣地理中心 23.9738° N 120.9797° E，邊距上下左右各2000公里。" %}
 
 ### 繪製臺灣真實色衛星雲圖
 
@@ -181,7 +181,7 @@ strings = ['JP01']
 files = {'ahi_hsd':  [x for x in files['ahi_hsd'] if any(s in x for s in strings)] }
 ```
 
-{% include image.html url="/assets/img/himawari_ahi_truecolor_Japan1_202008190300.png" description="資料時間：2020年8月19日3點0分 UTC" %}
+{% include image.html url="/assets/img/himawari_ahi_truecolor_Japan1_202008190300_S.png" description="資料時間：2020年8月19日3點0分 UTC" %}
 
 
 enjoy :)
